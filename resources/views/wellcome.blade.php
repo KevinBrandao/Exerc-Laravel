@@ -8,9 +8,9 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="/doc" method="post" enctype="multipart/form-data">
+    <form action="/document" method="post" enctype="multipart/form-data">
     @csrf
-    <input type="file" name="doc">
+    <input type="file" name="document">
     <button type="submit">Enviar</button>
 </form>
 </body>

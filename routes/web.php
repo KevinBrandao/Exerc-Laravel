@@ -16,4 +16,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('wellcome');
 });
-Route::post('/doc', [ExerciseController::class, 'doc']);
+Route::post('/document', [ExerController::class, 'document']);
